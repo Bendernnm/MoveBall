@@ -1,0 +1,43 @@
+#field {
+    width: 1000px;
+    height: 520px;
+    border: 10px groove black;
+    background-color: #00FF00;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#ball {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 80px;
+    height: 80px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+}
+
+#pokemon1, #pokemon2, #pokemon3 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+}
+
+#pokemon1{
+    top: 20px;
+    left: 120px;
+}
+
+#pokemon2{
+    top: 250px;
+    left: 420px;
+}
+
+#pokemon3{
+    top: 120px;
+    left: 500px;
+}
